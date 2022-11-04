@@ -17,6 +17,7 @@ btnAdicionar.addEventListener('click', function () {
 
     listaTarefas.appendChild(li)
 
+    /* BOTAO EXCLUIR */
 
     let btnExcluir = document.createElement('button')
     btnExcluir.setAttribute('id', 'botaoExcluir')
